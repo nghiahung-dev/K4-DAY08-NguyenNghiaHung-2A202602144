@@ -1,0 +1,9 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0088.jpg,xe ô tô ở xa hơi mờ thấy được thân,added,Thấy thân xe và đèn xe ở xa đủ bằng chứng gán nhãn theo GUIDELINE_LABEL.md
+1,frame_0088.jpg,box xe con làn giữa bị rộng,edited,Chỉnh lại viền box ôm sát thân xe không bao vệt sáng mặt đường
+1,frame_0099.jpg,vệt phản chiếu đèn pha mặt đường,deleted,Xóa box giả AI vẽ nhầm vào vệt đèn pha phản chiếu trên mặt đường
+1,frame_0115.jpg,box AI vẽ vào vùng nhiễu tối bên lề,deleted,Xóa box sai vị trí không có xe theo quy tắc GUIDELINE_LABEL.md
+1,frame_0220.jpg,ô tô góc trái mép ảnh,added,Thêm xe 4 bánh bị AI bỏ sót ở góc trái ảnh nhìn rõ thân xe
+1,frame_0311.jpg,ô tô bên trái bị lệch viền,edited,Kéo chỉnh box ôm khít thân xe tính cả gương và đèn
+1,frame_0333.jpg,các xe ô tô ở làn giữa di chuyển nhanh,added,Bổ sung các xe bị AI bỏ sót do độ tin cậy thấp hoặc nhòe chuyển động
+1,frame_0395.jpg,xe buýt lớn và ô tô ở giữa ảnh,added,Gán nhãn cho xe buýt và ô tô (xe từ 4 bánh trở lên đều thuộc lớp car)

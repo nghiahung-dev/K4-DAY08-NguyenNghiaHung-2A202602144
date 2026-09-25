@@ -1,0 +1,41 @@
+{
+  "round": 0,
+  "model": "yolo11x cold start (COCO car+bus+truck)",
+  "base_model": "yolo11x.pt",
+  "n_train_images": 0,
+  "n_train_boxes": 0,
+  "epochs": 0,
+  "imgsz": 640,
+  "strategies": [],
+  "test": {
+    "images": 20,
+    "ref_boxes": 403,
+    "ref_ignored_tiny": 14,
+    "ap50": 0.9043,
+    "conf_thr": 0.25,
+    "tp": 260,
+    "fp": 0,
+    "fn": 143,
+    "precision": 1.0,
+    "recall": 0.6452,
+    "f1": 0.7843,
+    "recall_by_size": {
+      "small": {
+        "recall": 0.0455,
+        "ref_boxes": 66
+      },
+      "medium": {
+        "recall": 0.7331,
+        "ref_boxes": 296
+      },
+      "large": {
+        "recall": 0.9756,
+        "ref_boxes": 41
+      }
+    }
+  },
+  "reference": "data/test/labels",
+  "runtime": "NVIDIA GeForce RTX 3060",
+  "student": "Nguyen Nghia Hung",
+  "created": "2026-09-25T10:45:34"
+}

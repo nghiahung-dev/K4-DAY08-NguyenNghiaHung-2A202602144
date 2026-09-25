@@ -1,0 +1,43 @@
+{
+  "round": 1,
+  "model": "yolo11x fine-tune vong 1..1",
+  "base_model": "yolo11x.pt",
+  "n_train_images": 12,
+  "n_train_boxes": 240,
+  "epochs": 10,
+  "imgsz": 640,
+  "strategies": [
+    "uncertainty"
+  ],
+  "test": {
+    "images": 20,
+    "ref_boxes": 403,
+    "ref_ignored_tiny": 14,
+    "ap50": 0.8899,
+    "conf_thr": 0.25,
+    "tp": 253,
+    "fp": 0,
+    "fn": 150,
+    "precision": 1.0,
+    "recall": 0.6278,
+    "f1": 0.7713,
+    "recall_by_size": {
+      "small": {
+        "recall": 0.0455,
+        "ref_boxes": 66
+      },
+      "medium": {
+        "recall": 0.7162,
+        "ref_boxes": 296
+      },
+      "large": {
+        "recall": 0.9268,
+        "ref_boxes": 41
+      }
+    }
+  },
+  "reference": "data/test/labels",
+  "runtime": "NVIDIA GeForce RTX 3060",
+  "student": "Nguyen Nghia Hung",
+  "created": "2026-09-25T10:46:07"
+}
